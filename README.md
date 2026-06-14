@@ -4,6 +4,16 @@
 
 ---
 
+## 📸 界面预览
+
+### 首页
+![首页](./docs/screenshots/homepage.jpg)
+
+### 精选角色
+![角色页面](./docs/screenshots/characters.jpg)
+
+---
+
 ## 🚀 快速启动
 
 ### 前置要求
