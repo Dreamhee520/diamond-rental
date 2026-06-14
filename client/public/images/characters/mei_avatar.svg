@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#FFF5F0;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#F0D8C8;stop-opacity:0.15"/>
+    </radialGradient>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <rect width="400" height="400" rx="200" fill="#f8f4ff"/>
+  <circle cx="200" cy="200" r="180" fill="url(#bgGrad)"/>
+
+  <!-- Body/shoulders -->
+  <ellipse cx="200" cy="340" rx="120" ry="80" fill="#FFC0CB"/>
+  <ellipse cx="200" cy="350" rx="100" ry="60" fill="#F5A0B0"/>
+  <path d="M 80 300 Q 80 380 200 400 Q 320 380 320 300" fill="#FFC0CB"/>
+
+  <!-- Neck -->
+  <rect x="185" y="240" width="30" height="40" rx="8" fill="#FFF5F0"/>
+  <rect x="185" y="245" width="30" height="10" rx="4" fill="#F0D8C8" opacity="0.3"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="80" ry="95" fill="#FFF5F0"/>
+  <ellipse cx="200" cy="250" rx="85" ry="30" fill="#F0D8C8" opacity="0.15"/>
+
+  <!-- Back hair (behind face) -->
+  <ellipse cx="200" cy="175" rx="90" ry="100" fill="#F0A0B0"/>
+  <ellipse cx="200" cy="300" rx="95" ry="120" fill="#F0A0B0"/>
+
+  <!-- Side hair strands -->
+  <ellipse cx="70" cy="200" rx="45" ry="100" fill="#FFB6C1"/>
+  <ellipse cx="330" cy="200" rx="45" ry="100" fill="#FFB6C1"/>
+
+  <!-- Forehead highlight -->
+  <ellipse cx="200" cy="155" rx="40" ry="8" fill="#FFFFFF" opacity="0.15"/>
+
+  <!-- Eyebrows -->
+  <path d="M 155 178 Q 175 172 195 178" stroke="#F0A0B0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 205 178 Q 225 172 245 178" stroke="#F0A0B0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <circle cx="175" cy="200" r="15" fill="#DB7093"/>
+        <circle cx="225" cy="200" r="15" fill="#DB7093"/>
+  <ellipse cx="175" cy="200" rx="9" ry="11" fill="#1a1a2e"/>
+    <ellipse cx="225" cy="200" rx="9" ry="11" fill="#1a1a2e"/>
+  <circle cx="170" cy="195" r="5" fill="#FFFFFF"/>
+    <circle cx="230" cy="195" r="5" fill="#FFFFFF"/>
+
+  <!-- Eyelashes -->
+  <path d="M 155 195 Q 150 190 148 185" stroke="#F0A0B0" stroke-width="1.5" fill="none"/>
+  <path d="M 245 195 Q 250 190 252 185" stroke="#F0A0B0" stroke-width="1.5" fill="none"/>
+
+  <!-- Eye highlights -->
+  <circle cx="172" cy="196" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="222" cy="196" r="4" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Blush -->
+  <ellipse cx="145" cy="215" rx="18" ry="10" fill="#FFB6C1" opacity="0.4"/>
+    <ellipse cx="255" cy="215" rx="18" ry="10" fill="#FFB6C1" opacity="0.4"/>
+
+  <!-- Nose -->
+  <path d="M 198 212 Q 200 218 202 212" stroke="#D4A88" fill="none" stroke-width="1.2"/>
+
+  <!-- Mouth/Smile -->
+  <path d="M 185 230 Q 200 248 215 230" stroke="#C47A7A" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Front bangs -->
+  <ellipse cx="200" cy="110" rx="80" ry="45" fill="#FFB6C1"/>
+    <ellipse cx="140" cy="100" rx="50" ry="55" fill="#FFB6C1"/>
+    <ellipse cx="260" cy="100" rx="50" ry="55" fill="#FFB6C1"/>
+    <ellipse cx="100" cy="120" rx="45" ry="50" fill="#FFB6C1"/>
+    <ellipse cx="300" cy="120" rx="45" ry="50" fill="#FFB6C1"/>
+
+  <!-- Hair top highlight -->
+  <ellipse cx="200" cy="80" rx="50" ry="15" fill="#FFFFFF" opacity="0.1"/>
+  <ellipse cx="170" cy="90" rx="15" ry="25" fill="#FFFFFF" opacity="0.08"/>
+  <ellipse cx="230" cy="90" rx="15" ry="25" fill="#FFFFFF" opacity="0.08"/>
+
+  <!-- Sparkle decorations -->
+  <circle cx="60" cy="80" r="3" fill="#FFB6C1" opacity="0.3"/>
+  <circle cx="340" cy="60" r="2" fill="#FFB6C1" opacity="0.3"/>
+  <circle cx="50" cy="180" r="2" fill="#FFB6C1" opacity="0.2"/>
+  <circle cx="350" cy="170" r="3" fill="#FFB6C1" opacity="0.2"/>
+  <circle cx="80" cy="280" r="2" fill="#FFB6C1" opacity="0.15"/>
+  <circle cx="320" cy="290" r="2.5" fill="#FFB6C1" opacity="0.15"/>
+
+  <!-- Decorative small sparkles -->
+  <path d="M 60 80 l 2 -6 l 2 6 l 6 2 l -6 2 l -2 6 l -2 -6 l -6 -2 z" fill="#FFB6C1" opacity="0.4"/>
+  <path d="M 340 60 l 1.5 -4 l 1.5 4 l 4 1.5 l -4 1.5 l -1.5 4 l -1.5 -4 l -4 -1.5 z" fill="#FFB6C1" opacity="0.4"/>
+</svg>
